@@ -12,10 +12,10 @@ const App = () => {
     <Router>
       <Switch>
         <div className="App">
-          <Route path='/'>
+          <Route exact path='/'>
             <Main/>
           </Route>
-          <Route path="chatAI">
+          <Route path="/chatAI">
           <ChatAI />
           </Route>
         </div>
