@@ -8,7 +8,8 @@ body {
     --tw-text-opacity: 1;
     color: rgb(203 213 225/var(--tw-text-opacity));
     font-family: Jetbrains Mono, ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, Liberation Mono, Courier New, monospace;
-    min-height: 3000px;
+    /* min-height: 3000px; */
+    min-height: 200vh;
     box-sizing: border-box;
     overflow-y: auto;
     overflow-x: hidden;
