@@ -3,9 +3,8 @@ const app = express();
 const cors = require('cors')
 
 
-app.get('/', (req, res) => {
-  console.log('00000000000000000000000000000000000000000000000000000000000000000000')
-  res.send('00000000000000000000000000000000000000000')
+app.get('/myIp', (req, res) => {
+  res.send(req.headers['x-forwarded-for'] || req.socket.remoteAddress)
 })
 
 // Heroku dynamically sets a port
