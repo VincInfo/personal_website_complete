@@ -9,7 +9,7 @@ const ChatAI = () => {
     }
     return (
         <div style={style}>
-            Shame on you.
+            I said coming soon.
         </div>
     )
 }

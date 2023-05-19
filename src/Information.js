@@ -9,7 +9,7 @@ const Information = () => {
                     <h1>Me</h1>
                     <br></br>
                     <p>
-                        Hello! My name is Vincent Taffetshofer and i'm currently pursuing a degree in computer science at the technical university
+                        Hello! My name is Vincent Taffetshofer and I'm currently pursuing a degree in computer science at the technical university
                         of applied sciences in Ingolstadt.
                     </p>
                     <p>
