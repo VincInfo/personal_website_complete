@@ -176,6 +176,7 @@ hr {
     /* height: 10vh; */
     /* width: 10vw; */
     box-sizing: border-box;
+
 }
 
 .magic {
@@ -189,6 +190,8 @@ hr {
     background-size: 100% 2px, 3px 100%;
     /* border: 1px solid #4a4949; */
     box-shadow: inset 0 0 30px #fbfbfb08;
+    box-shadow: outset 30px 30px 30px #f60606f2;
+
     box-sizing: border-box;
     height: 100%;
     /* width: 100%; */
