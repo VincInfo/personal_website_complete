@@ -2,9 +2,9 @@
   "engines": {
     "node": "16.19.1"
   },
-  "name": "fullstackopen-cicd",
+  "name": "vincenttaffertshofer1",
   "version": "1.0.0",
-  "description": "Full Stack Open",
+  "description": "Personal Website",
   "main": "src/index.js",
   "scripts": {
     "v": "node -v",
@@ -16,17 +16,17 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/smartlyio/fullstackopen-cicd.git"
+    "url": "git+https://github.com/VincInfo/personal_website_complete.git"
   },
   "keywords": [
-    "fullstack-open"
+    "personal-website"
   ],
-  "author": "Smartly.io",
+  "author": "Vincent Taffertshofer",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/smartlyio/fullstackopen-cicd/issues"
+    "url": "https://github.com/VincInfo/personal_website_complete/issues"
   },
-  "homepage": "https://github.com/smartlyio/fullstackopen-cicd#readme",
+  "homepage": "https://github.com/VincInfo/personal_website_complete#readme",
   "devDependencies": {
     "@babel/core": "^7.9.6",
     "@babel/plugin-transform-runtime": "^7.10.0",

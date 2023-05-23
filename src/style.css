@@ -13,6 +13,9 @@ body {
     box-sizing: border-box;
     overflow-y: auto;
     overflow-x: hidden;
+    counter-reset: section;
+    --green: #64ffda;
+    --font-mono: 'SF Mono','Fira Code','Fira Mono','Roboto Mono',monospace;
 }
 
 /* #root {
@@ -36,6 +39,33 @@ p {
 
 p {
     margin-bottom: 15px;
+}
+
+h1, h2 {
+    color: white;
+}
+
+.numbered-heading::before {
+    position: relative;
+    counter-increment: section 1;
+    content: "0" counter(section) ".";
+    margin-right: 10px;
+    color: var(--green);
+    /* font-family: var(--font-mono); */
+    /* font-size: clamp(var(16px),3vw,var(20px)); */
+    font-weight: 400;
+
+}
+
+.numbered-heading {
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    position: relative;
+    margin: 10px 0px 40px;
+    width: 100%;
+    /* font-size: clamp(26px,5vw,var(32px)); */
+    white-space: nowrap;
 }
 
 .flex {
