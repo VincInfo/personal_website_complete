@@ -1,6 +1,6 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import { StrictMode } from 'react';
-import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
+import { BrowserRouter as Router, Switch, Route, Routes } from 'react-router-dom'
 
 import Main from "./Main";
 import ChatAI from "./ChatAI";
@@ -19,14 +19,14 @@ const App = () => {
   return (
     <Router>
       <Switch>
-        <div className="App">
+        {/* <div className="App"> */}
           <Route exact path='/'>
             <Main/>
           </Route>
           <Route path="/chatAI">
           <ChatAI />
           </Route>
-        </div>
+        {/* </div> */}
       </Switch>
     </Router>
   )
