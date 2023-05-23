@@ -6,7 +6,15 @@ import Main from "./Main";
 import ChatAI from "./ChatAI";
 import './style.css'
 
+import ReactGA from 'react-ga';
+const TRACKING_ID = "G-9Y857N7EE6"; // OUR_TRACKING_ID
+ReactGA.initialize(TRACKING_ID);
+
 const App = () => {
+
+  useEffect(() => {
+    ReactGA.pageview(window.location.pathname + window.location.search);
+  }, []);
 
   return (
     <Router>
