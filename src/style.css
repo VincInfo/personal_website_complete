@@ -34,6 +34,10 @@ p {
     margin: 0;
 }
 
+p {
+    margin-bottom: 15px;
+}
+
 .flex {
     width: 100%;
     display: flex;
@@ -226,6 +230,28 @@ hr {
     background-color: rgba(255, 255, 255, 0.073);
     /* backdrop-filter: blur(3px); */
     transition: background-color 0.2s ease-out, backdrop-filter 0.2s ease-in;}
+
+.recent-technologies {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(140px, 200px));
+    gap: 0px, 10px;
+    padding: 0px;
+    /* list-style: none; */
+}
+
+/* ::-webkit-scrollbar {
+    width: 12px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: var(--dark-slate);
+    border: 3px solid var(--navy);
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: var(--navy);
+} */
 
 @media (min-width: 768px) {
     .md\:grid-cols-2 {
